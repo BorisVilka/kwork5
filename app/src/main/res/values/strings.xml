@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cказки леса</string>
+    <string name="link1">
+        Детская аудиосказка «Петушок-золотой гребешок» Автор идеи, музыки, рассказчик – Сергей Скромный
+
+        Сказку озвучивали: Лиса – Наталья Ходунова  Кот – <a href="https://vk.com/les1987">Артемий Лобода</a>  Ребенок – Eва Ходунова
+
+        Друзья проекта: <a href="https://vk.com/forestsilence_spb">Мастерская Forest Silence</a> (г. Санкт-Петербург): игрушки, сувениры, изделия из дерева, резка, 3D печать. Поддержать проект можно в <a href="https://vk.com/sergey_scromnyi?w=app5727453_-12890147">группе в ВК</a></string>
+
+    <string name="ref1">
+        Приветствуем всех пользователей приложения "Сказки леса".\nнажав кнопку "Принять", я подтверждаю, что прочитал и понял условия <a href="https://docs.google.com/document/d/1aPg1EHbz5tyaHUTCDKISsI2oN0yp9pph/edit">политики конфиденциальности</a>.</string>
+
+</resources>

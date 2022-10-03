@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "647585371887",
+    "firebase_url": "https://talep-83ad0.firebaseio.com",
+    "project_id": "talep-83ad0",
+    "storage_bucket": "talep-83ad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647585371887:android:83b0a86310e5169d",
+        "android_client_info": {
+          "package_name": "com.example.c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647585371887-2orbr78nkuvqnojtct45j9vrf58qorok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.c",
+            "certificate_hash": "fded19df245cee7df67285f499a60349f9dd2491"
+          }
+        },
+        {
+          "client_id": "647585371887-d8g33719f8g7uhqrij3m1f6dhqsj81vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLSXyY9RIl3AbgV43adCvHs216Jb80ZuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647585371887-d8g33719f8g7uhqrij3m1f6dhqsj81vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

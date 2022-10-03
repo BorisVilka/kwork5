@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_in_about_auther_activity"
+    tools:context=".AboutAuthorActivity">
+
+
+    <com.yandex.mobile.ads.banner.BannerAdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.yandex.mobile.ads.banner.BannerAdView>
+
+
+    <Button
+        android:id="@+id/btn_go_titre"
+        android:layout_width="131dp"
+        android:layout_height="71sp"
+        android:layout_marginStart="264dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/next_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_back" />
+
+
+    <Button
+        android:id="@+id/vk_logo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableStart="@mipmap/vk10_foreground"
+        android:padding="16dp"
+        android:text="Оставить отзыв"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btn_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/vk1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableStart="@mipmap/vk12_foreground"
+        android:padding="16dp"
+        android:text="Отблагодарить автора"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/vk_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/friends"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableStart="@mipmap/vk13_foreground"
+        android:padding="16dp"
+        android:text="Друзья проекта"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/vk1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/dsen"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableStart="@mipmap/vk11_foreground"
+        android:padding="16dp"
+        android:text="Блог автора"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/friends"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="131dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/back_btn"
+        app:layout_constraintBottom_toTopOf="@+id/adView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

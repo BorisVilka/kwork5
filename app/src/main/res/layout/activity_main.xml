@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_in_main_activity"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411">
+
+        <Button
+            android:id="@+id/btnTale"
+            android:layout_width="160dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:background="@drawable/tale_btn"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSings"
+            android:layout_width="160dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="60sp"
+            android:background="@drawable/song_btn"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAboutUs"
+            android:layout_width="160dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="60sp"
+            android:background="@drawable/aboutauthor_btn"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <com.yandex.mobile.ads.banner.BannerAdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="57dp"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"></com.yandex.mobile.ads.banner.BannerAdView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
